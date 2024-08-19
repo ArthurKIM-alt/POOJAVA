@@ -1,7 +1,7 @@
 abstract class Abstracao {
     String marca;
     String modelo;
-    int anodefabricacao;
+    int ano;
     String cor;
 
     abstract void buzinar();
