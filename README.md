@@ -1,5 +1,7 @@
 Integrantes: Arthur Kim e Luiz Henrique
 
+Professor para o arquivo rodar, tem que colocar o arquivo Heranca.java e Veiculo.Java, dentro da pasta "src", junto ao Main. Tentamos fazer a mudança antes de enviar, porém não conseguimos alocar.
+
 Perguntas:
 
 Abstração:
