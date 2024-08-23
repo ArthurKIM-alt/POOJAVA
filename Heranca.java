@@ -5,11 +5,11 @@ class Carro extends Veiculo {
     }
 
     void buzinar() {
-        System.out.println("O carro " + marca + " " + modelo + " está buzinando");
+        System.out.println("O carro " + getMarca() + " " + getModelo() + " está buzinando");
     }
 
     void acelerar() {
-        System.out.println("O carro " + marca + " " + modelo + " está acelerando.");
+        System.out.println("O carro " + getMarca() + " " + getModelo() + " está acelerando.");
     }
 }
 
@@ -20,11 +20,11 @@ class Moto extends Veiculo {
     }
 
     void buzinar() {
-        System.out.println("A moto " + marca + " " + modelo + " está buzinando");
+        System.out.println("A moto " + getMarca() + " " + getModelo() + " está buzinando");
     }
 
     void acelerar() {
-        System.out.println("A moto " + marca + " " + modelo + " está acelerando.");
+        System.out.println("A moto " + getMarca() + " " + getModelo() + " está acelerando.");
     }
 }
 
@@ -35,10 +35,10 @@ class Caminhao extends Veiculo {
     }
 
     void buzinar() {
-        System.out.println("O caminhão " + marca + " " + modelo + " está buzinando");
+        System.out.println("O caminhão " + getMarca() + " " + getModelo() + " está buzinando");
     }
 
     void acelerar() {
-        System.out.println("O caminhão " + marca + " " + modelo + " está acelerando.");
+        System.out.println("O caminhão " + getMarca() + " " + getModelo() + " está acelerando.");
     }
 }
